@@ -21,3 +21,14 @@ weight: 1
 Here is a short video explaining what this tool is and demonstrating how to use it:
 
 {{< youtube 0CcRNSWg7co >}}
+
+
+## How to install
+
+1. Method 1:
+
+install zxp from adobe exchange, and install context menu tool from Here.
+
+https://github.com/edwardsync/edwardsync-releases/releases/download/latest/menutool.zip
+
+

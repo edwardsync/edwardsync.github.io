@@ -3148,11 +3148,6 @@ header.header {
   display: block;
 }
 
-.post-reward .post-reward-item:hover span {
-  animation: next-roll .1s infinite linear;
-  pointer-events: none;
-}
-
 .post-reward img {
   display: inline-block;
   margin: .8em 1.2em;
@@ -3164,10 +3159,10 @@ header.header {
 
 @keyframes next-roll {
   from {
-    transform: rotateZ(30deg);
+    transform: rotateZ(0deg);
   }
   to {
-    transform: rotateZ(-30deg);
+    transform: rotateZ(0deg);
   }
 }
 

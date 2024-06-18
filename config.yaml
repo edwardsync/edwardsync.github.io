@@ -21,7 +21,8 @@ title: Edward Widgets
 theme: hugo-theme-next
 # 站点默认的语言和代码
 # Default laguage & code for website
-defaultContentLanguage: zh-cn
+# defaultContentLanguage: zh-cn
+defaultContentLanguage: en
 languageCode: zh-CN
 # 是否包含中文，日语，韩文
 # Whether contains Chinese, Japanese and Korean
@@ -125,20 +126,20 @@ minify:
 menus:
   main:
     - identifier: home
-      name: 首页
+      name: Home
       pageref: /
       pre: home
       weight: 1
     - identifier: about
-      name: 关于
+      name: About
       pageref: /about.html
       pre: user
       weight: 2
-    - identifier: commonweal
-      name: 公益 404
-      url: /404.html
-      pre: heartbeat
-      weight: 5
+    # - identifier: commonweal
+    #   name: 公益 404
+    #   url: /404.html
+    #   pre: heartbeat
+    #   weight: 5
 
 #-----------------------------------------
 # Hugo NexT 主题参数配置
@@ -292,7 +293,7 @@ params:
     # 站点访问信息
     # Site's view information
     views:  
-      enable: true
+      enable: false
       # 组件类型，可选值为： 51la, busuanzi
       # 使用51la时需要注册账号：https://invite.51.la/
       # Plguin value is: 51la, busuanzi
@@ -339,7 +340,7 @@ params:
     icon: fa fa-globe
     # 显示标题
     # Show title
-    title: 友情链接
+    title: Thanks
     # 可选值： block | inline
     # Available values: block | inline
     layout: inline
@@ -349,8 +350,8 @@ params:
   # Links of your friends
   # Usage: `Key: name || permalink`
   links: 
-    link0: gitee || https://gitee.com/hugo-next/hugo-theme-next
-    link1: 主页地址 || https://github.com/edwardsync
+    link0: hugo-theme-next || https://github.com/hugo-next/hugo-theme-next
+    # link1: 主页地址 || https://github.com/edwardsync
 
   # 文章目录显示
   # Table of Contents in the Sidebar
@@ -384,7 +385,7 @@ params:
     # 站点开始年份，默认为当下时间的年份
     # Specify the year when the site was setup. 
     # If not defined, current year will be used.
-    since: 2010
+    # since: 2010
 
     # 年份和版权信息之间的图标
     # Icon between year and copyright info.
@@ -413,7 +414,7 @@ params:
     beian:
       enable: false
       # ICP 备案的具体信息
-      icp: 粤ICP备 18047355-1 号
+      icp: 粤ICP备 18047355-1 号  
       # 公安网备的省份简称
       provinceAbbr: 沪
       # 公安网备案号
@@ -504,7 +505,7 @@ params:
     enable: true
     # 是否开启捐赠方式的动画效果
     # If true, the donate type title will with animation.
-    animation: true
+    animation: false
     # 捐赠信息的描述，支持 HTML 语法
     # Comment for donate and suppport HTML syntax
     comment: '<i class="fa-solid fa-mug-hot"></i>Buy Me a Coffee ヾ(^▽^*)))'
@@ -514,8 +515,8 @@ params:
     # Usage: `name:image url`
     reward:
       wechatpay: /imgs/wechat-pay.png
-      alipay: /imgs/ali-pay.png
-      #paypal: /images/paypal.png
+      # alipay: /imgs/ali-pay.png
+      paypal: /imgs/paypal-pay.png
       #bitcoin: /images/bitcoin.png
 
   # 提供其它订阅站点文章的方式

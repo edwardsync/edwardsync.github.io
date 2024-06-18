@@ -1,5 +1,5 @@
 ---
-title: "Introduction to EdwardSync"
+title: "News about EdwardSync"
 description: "The easiest way to import assets into premiere"
 
 lastmod: 2022-06-03T16:43:23+08:00
@@ -13,7 +13,7 @@ tags:
 
 url: post/edward-sync-news.html
 toc: true
-weight: 1
+weight: 3
 ---
 
 ## What is EdwardSync

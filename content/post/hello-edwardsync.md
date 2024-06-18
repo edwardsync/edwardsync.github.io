@@ -18,16 +18,18 @@ weight: 1
 
 ## Intro & How to Use
 
-Here is a short video explaining what this tool is and demonstrating how to use it:
+Here is a short video explaining what this tool is and demonstrating how to install and use it:
 
 {{< youtube 0CcRNSWg7co >}}
+
+
 
 
 ## How to install
 
 1. Method 1:
 
-install zxp from adobe exchange, and install context menu tool from [Here](#how-to-install).
+install zxp from adobe exchange, and install context menu tool from [Here](https://github.com/edwardsync/edwardsync-releases/releases/tag/latest).
 
 
 

@@ -24,12 +24,11 @@ Here is a short video explaining what this tool is and demonstrating how to inst
 
 
 
-
 ## How to install
 
 1. Method 1:
 
-install zxp from adobe exchange, and install context menu tool from [Here](https://github.com/edwardsync/edwardsync-releases/releases/tag/latest).
+install the Premiere plugin and the context menu tool from [Here](https://github.com/edwardsync/edwardsync-releases/releases/tag/latest).
 
 
 
